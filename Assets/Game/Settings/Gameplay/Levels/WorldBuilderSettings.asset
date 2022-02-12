@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 573687deda99c4542a89938fc31457b1, type: 3}
+  m_Name: WorldBuilderSettings
+  m_EditorClassIdentifier: 
+  settings: {fileID: 11400000, guid: 5fe539ab4cc19214d86f9b74bd168b56, type: 2}
+  offset: {x: 0, y: 1, z: 0}
+  roomPrefabs:
+  - {fileID: 8611639999391995946, guid: 6f177cd36817d884f94e8dd94c7754ba, type: 3}
+  - {fileID: 6333403611917525122, guid: e0748090ec8287843874e9aea920d8e3, type: 3}
+  - {fileID: 2418669383701793841, guid: 02e68dfa7801bea42b82cf1ead6ab05e, type: 3}
+  finalRoom: {fileID: 8611639999391995946, guid: ba0d8f448db42f64ba72deb46567dcf7, type: 3}
+  wallPrefab: {fileID: 4805713471583888464, guid: 51965219de16a4f4d8ec71b749d0cc7c, type: 3}
+  cornerPrefab: {fileID: 6765279012601051651, guid: 96f665ca9c78eeb4db64897ee1cde568, type: 3}
+  doorPrefab: {fileID: 2248503478104334818, guid: 5c3349dfb2f435247b5b3d12f4a8cf5b, type: 3}
+  teleportOffset: 2

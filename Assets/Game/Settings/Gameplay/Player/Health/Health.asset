@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f89115b94ce6b14b9874e45fe64c0c4, type: 3}
+  m_Name: Health
+  m_EditorClassIdentifier: 
+  currentFill: {fileID: 11400000, guid: 7134cbded1565994c9521443bc6b55dd, type: 2}
+  maximumFill: {fileID: 11400000, guid: d8bd19bce64034445afdd189224f68cc, type: 2}
+  startingFill: {fileID: 11400000, guid: b9fa923128a145943aa979a73a74462d, type: 2}
+  onEmptyFill: {fileID: 11400000, guid: b39a9ee5aba416249b08f81f24ba2963, type: 2}
+  onFullFill: {fileID: 11400000, guid: e6d470c7f2c60c54f813d7bb3fda5465, type: 2}
+  onSpecifiedFillingCollection: {fileID: 0}

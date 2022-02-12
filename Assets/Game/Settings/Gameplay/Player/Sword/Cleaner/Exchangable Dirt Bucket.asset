@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e233d40afd9774da82d6a530963519, type: 3}
+  m_Name: Exchangable Dirt Bucket
+  m_EditorClassIdentifier: 
+  bucket: {fileID: 11400000, guid: f10e498614d07094f99796e1be4362e9, type: 2}
+  gainRate: {fileID: 11400000, guid: e52d5428bed208f4fb8095b3e6da23a3, type: 2}
+  loseRate: {fileID: 11400000, guid: c9514e87a305f99479d191f16b05c01c, type: 2}
+  timePerRate: {fileID: 11400000, guid: be7556b39da189e409bbbbe2339980ef, type: 2}

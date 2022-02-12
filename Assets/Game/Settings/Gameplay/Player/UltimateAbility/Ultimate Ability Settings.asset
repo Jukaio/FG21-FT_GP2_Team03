@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca97ccbb248d3c4fbd76fcaf1b78c0d, type: 3}
+  m_Name: Ultimate Ability Settings
+  m_EditorClassIdentifier: 
+  coolDown: {fileID: 11400000, guid: efcd6c9e13c0c43459467823c84427ab, type: 2}
+  buffedSpeed: {fileID: 11400000, guid: 6408d4074dd2cf54a99482be82b4be6c, type: 2}
+  buffedDashLength: {fileID: 11400000, guid: 5efcdf5c0f75a5344a89121e84f5117e, type: 2}
+  buffedDamage: {fileID: 11400000, guid: 81cd0a1f1a1e298469b0e3ee64345e8e, type: 2}
+  duration: {fileID: 11400000, guid: a455a58f3349dbf42ba0bf11515c3b97, type: 2}
+  debuffedSpeed: {fileID: 11400000, guid: 07c328e452ad11d429e3eb81385726c3, type: 2}
+  debuffedDashSpeed: {fileID: 11400000, guid: 26db7cb67562fe9499520aa3b3cfeffb, type: 2}
+  debuffedDashAcceleration: {fileID: 11400000, guid: a367f9ee5b534f848b6dcd71a4d5e65a, type: 2}

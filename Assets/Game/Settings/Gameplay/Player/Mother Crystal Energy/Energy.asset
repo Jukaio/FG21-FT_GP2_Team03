@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f89115b94ce6b14b9874e45fe64c0c4, type: 3}
+  m_Name: Energy
+  m_EditorClassIdentifier: 
+  currentFill: {fileID: 11400000, guid: 6b928afe6332e2142acb8278fb594292, type: 2}
+  maximumFill: {fileID: 11400000, guid: 50b4be1991d48f3428b03d00e9ad5081, type: 2}
+  startingFill: {fileID: 11400000, guid: 0873ecd630598ea4dbc270f53d4f6d03, type: 2}
+  onEmptyFill: {fileID: 11400000, guid: 951acef3d3d8d3e4b835b0a62957edfe, type: 2}
+  onFullFill: {fileID: 11400000, guid: 3037c7a591e126247bcd06aba6010b18, type: 2}
+  onSpecifiedFillingCollection: {fileID: 0}

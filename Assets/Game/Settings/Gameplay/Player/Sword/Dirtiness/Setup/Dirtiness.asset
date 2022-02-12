@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f89115b94ce6b14b9874e45fe64c0c4, type: 3}
+  m_Name: Dirtiness
+  m_EditorClassIdentifier: 
+  currentFill: {fileID: 11400000, guid: 8d5c48b2c505c624e99208a49512acff, type: 2}
+  maximumFill: {fileID: 11400000, guid: 92295aa63d1eb344fad1f5f4c8e079f1, type: 2}
+  startingFill: {fileID: 11400000, guid: df3acc1fb9423d24d8f50e55cac25d4d, type: 2}
+  onEmptyFill: {fileID: 11400000, guid: 9b41ed9ccf9c26d4b9e9fd0b62da105a, type: 2}
+  onFullFill: {fileID: 11400000, guid: 38f1237bccc969b4f837478f18524da4, type: 2}
+  onSpecifiedFillingCollection: {fileID: 11400000, guid: c58470416c6e6134c8b913bc832596b2, type: 2}

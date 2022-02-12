@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e233d40afd9774da82d6a530963519, type: 3}
+  m_Name: Exchangable Health Bucket
+  m_EditorClassIdentifier: 
+  bucket: {fileID: 11400000, guid: 7cf0ac7f367698f4985a609912ff8143, type: 2}
+  gainRate: {fileID: 11400000, guid: c6d22ca6d22dae340b808d0b88af1e46, type: 2}
+  loseRate: {fileID: 11400000, guid: 0681f45d6bfdfdc4fba616b0a05b9262, type: 2}
+  timePerRate: {fileID: 11400000, guid: 1a24caa0c87184343883355fdc6511ff, type: 2}

@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6743311446848866794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6743311446848866793}
+  - component: {fileID: 6743311446848866792}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: DialogueAudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6743311446848866793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6743311446848866794}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 460.32043, y: 105.25137, z: -64.71455}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6743311447084362779}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6743311446848866792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6743311446848866794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e76bcc0644c48d489f0e718c19c0cad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDialogue:
+  - name: Slash! Slash!
+    clip: {fileID: 8300000, guid: e88c323493da63f428118a5c6bc00b66, type: 3}
+  - name: The chosen one would never attack so sloppily! Are you trying to make the
+      biggest mess you can?!
+    clip: {fileID: 8300000, guid: a681f09e302b25b4dab26abecfe68ef5, type: 3}
+  - name: Ugh! You got it on me! Getitoff, getitoff!
+    clip: {fileID: 8300000, guid: e1379916860af354dae77bbd42139e05, type: 3}
+  dirtyDialogue:
+  - name: I need cleaning!
+    clip: {fileID: 8300000, guid: 23982b5bb06c8884b9e307edbb6e8e9f, type: 3}
+  - name: Ugh! Disgusting! Get this off me at once!
+    clip: {fileID: 8300000, guid: 5da4193fd7fa2b54a9cae474e9486b1a, type: 3}
+  - name: For the love of god, please, clean me!
+    clip: {fileID: 8300000, guid: 832a4f211e90a854eb439abe710b7e8e, type: 3}
+  - name: Clean me, for the love of god!
+    clip: {fileID: 8300000, guid: 31b00d8dba2e04e479dad8a38433c2af, type: 3}
+  cleaningDialogue:
+  - name: Finally I will be restored to my former glory!
+    clip: {fileID: 8300000, guid: bbd44fa1b814e314d9aed0838e26d6da, type: 3}
+  - name: Ehm...! I belive you missed a spot...
+    clip: {fileID: 8300000, guid: d3e8a9c9f433adc4eb2412e5fc5415e9, type: 3}
+  randomDialogue:
+  - name: "Have you ever had a dream that you, um- That you\u2019d, y\u2019know..
+      You- You could... Y-y-you could do.. You- We- You could... Ehm... You could
+      do so you, you could- That you wante- Ehm... Eh, you know what, nevermind...  "
+    clip: {fileID: 8300000, guid: 7c4afda4e2fa1f246af8bc0a36396639, type: 3}
+  expositionDialogue:
+  - name: Exposition0
+    clip: {fileID: 8300000, guid: 6ea9620e6a5b23d42a01b3a5cca08d5b, type: 3}
+  - name: Exposition1
+    clip: {fileID: 0}
+  - name: Exposition2
+    clip: {fileID: 0}
+  - name: Exposition3
+    clip: {fileID: 0}
+  - name: Exposition4
+    clip: {fileID: 0}
+  - name: Exposition5
+    clip: {fileID: 0}
+--- !u!1 &6743311447084362756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6743311447084362779}
+  m_Layer: 0
+  m_Name: Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6743311447084362779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6743311447084362756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -160.75964, y: 400.4405, z: -565.3524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6743311448125700968}
+  - {fileID: 6743311446848866793}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6743311448125700969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6743311448125700968}
+  - component: {fileID: 6743311448125700974}
+  - component: {fileID: 6743311448125700975}
+  m_Layer: 0
+  m_Name: Dialogue Audio Source
+  m_TagString: AudioSource
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6743311448125700968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6743311448125700969}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 236.53375, y: 206.77249, z: -24.721893}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6743311447084362779}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &6743311448125700974
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6743311448125700969}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &6743311448125700975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6743311448125700969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067a91ef2e8afe840974c9dbe40ffd74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onSwordHit: {fileID: 11400000, guid: 1abf1a34108f5d948808f27fa0861599, type: 2}
+  onClean: {fileID: 11400000, guid: 6d46cad8806d33a42b6df864de3a7e65, type: 2}
+  onSpecifiedFilling: {fileID: 11400000, guid: de113a041c2726841a83d59104a9f8ba, type: 2}
+  expositionOne: {fileID: 11400000, guid: c96426c47f9656d4e86dbe7ddc36c00f, type: 2}
+  expositionTwo: {fileID: 11400000, guid: 49a5f5de9eb26cc458fd37f9bcb92aae, type: 2}
+  expositionThree: {fileID: 11400000, guid: 7ca93c2e204a3e84e9b606f81ec9bb60, type: 2}
+  expositionFour: {fileID: 11400000, guid: 79f2affc00d1a854698e4552b58a600a, type: 2}
+  expositionFive: {fileID: 11400000, guid: 0adb76e1ae8329a449f8a72beed02bbf, type: 2}
+  expositionSix: {fileID: 11400000, guid: 319c14b062d5dc242995f0dbb89128e0, type: 2}

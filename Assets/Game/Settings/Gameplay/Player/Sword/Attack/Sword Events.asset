@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066157630ad260344973eb9673164123, type: 3}
+  m_Name: Sword Events
+  m_EditorClassIdentifier: 
+  onAttack: {fileID: 11400000, guid: d7ab39268d6504e4db84f3a55f1db620, type: 2}
+  onAttackStopped: {fileID: 11400000, guid: 93e7a5af73fda3442819309541bb1664, type: 2}
+  onSwordHit: {fileID: 11400000, guid: 1abf1a34108f5d948808f27fa0861599, type: 2}
+  onSwordMiss: {fileID: 11400000, guid: 8634a1e91ac9e4e4b9888ccb736d0487, type: 2}
